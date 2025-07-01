@@ -12,12 +12,12 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let des = `*👋Welcome,NADEEN-MD-MOVIE-DL-X BOT 🍟*
+let des = `*👋Welcome,SANIJA-MD-MOVIE-DL-X BOT 🍟*
 
-*╭─「 NADEENP-MD 」*
-*│◈ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴* : ​🇳​​🇦​​🇩​​🇪​​🇪​​🇳​-​🇲​​🇩​ ​🇲​​🇴​​🇻​​🇮​​🇪​-​🇩​​🇱​-​🇽​
-*│◈ 𝙾𝚆𝙽𝙴𝚁 𝙽𝙰𝙼𝙴* : ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ
-*│◈ 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 :* 0711451319 
+*╭─「 SANIJA-MD 」*
+*│◈ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴* : SANIJA-​🇲​​🇩​ ​🇲​​🇴​​🇻​​🇮​​🇪​-​🇩​​🇱​-​🇽​
+*│◈ 𝙾𝚆𝙽𝙴𝚁 𝙽𝙰𝙼𝙴* : SANIJA NIMTHARU
+*│◈ 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 :* 0771343565
 *╰──────────●●►*
 *╭──────────●●►*
 *│ Movie Search - .mv/.mvall
@@ -29,7 +29,7 @@ let des = `*👋Welcome,NADEEN-MD-MOVIE-DL-X BOT 🍟*
 *│ mega files - .mega/.meganz
 *╰──────────●●►*
 
-> *©ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*
+> *©SANIJA-ᴍᴅ ᴍᴀᴅᴇ ʙʏ sanija nimtharu*
 `
 return await conn.sendMessage(from,{image: {url: "https://files.catbox.moe/2elpxs.png"},caption: des},{quoted: mek})
 }catch(e){
