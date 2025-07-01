@@ -31,7 +31,7 @@ let des = `*👋Welcome,SANIJA-MD-MOVIE-DL-X BOT 🍟*
 
 > *©SANIJA-ᴍᴅ ᴍᴀᴅᴇ ʙʏ sanija nimtharu*
 `
-return await conn.sendMessage(from,{image: {url: "https://files.catbox.moe/2elpxs.png"},caption: des},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: "https://files.catbox.moe/v02why.jpg"},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
